@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "5fd162cd-466b-4d34-9af5-15637986d040",
+		"name": "Loteria",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2597889"
+	},
+	"item": [
+		{
+			"name": "Users-List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Users-Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"alias\": \"admin3\",\r\n        \"clave\": \"admin1234\",\r\n        \"nombre\": \"administrator3\",\r\n        \"apellido\": \"administrator3\",\r\n        \"cumpleanios\": \"1980-02-02\",\r\n        \"correo\": \"gingerpreciadoservices@gmail.com\",\r\n        \"ganancia\": \"250.00\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Users-Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"secuencia\": 3,\r\n        \"alias\": \"admin4\",\r\n        \"clave\": \"admin1234\",\r\n        \"nombre\": \"administrator4\",\r\n        \"apellido\": \"administrator4\",\r\n        \"cumpleanios\": \"1980-02-02\",\r\n        \"correo\": \"gingerpreciadoservices@gmail.com\",\r\n        \"ganancia\": \"250.00\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Users/Update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Users",
+						"Update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Users-Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"secuencia\": 2,\r\n        \"alias\": \"admin2\",\r\n        \"clave\": \"admin1234\",\r\n        \"nombre\": \"administrator2\",\r\n        \"apellido\": \"administrator2\",\r\n        \"cumpleanios\": \"1980-02-02\",\r\n        \"correo\": \"gingerpreciadoservices@gmail.com\",\r\n        \"ganancia\": \"250.00\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Users/Delete",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Users",
+						"Delete"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
