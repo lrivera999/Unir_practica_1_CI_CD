@@ -1,0 +1,10 @@
+casa
+perro
+sol
+luna
+gato
+sol
+estrella
+nube
+gato
+árbol
