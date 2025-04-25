@@ -1,0 +1,4 @@
+1. se abre la aplicacion.
+2. se debe escoger opciones consideradas ganadoras.
+3. se ejecuta el inicio de la aplicacion.
+4. se establece las opciones ganadorasde la loteria.
