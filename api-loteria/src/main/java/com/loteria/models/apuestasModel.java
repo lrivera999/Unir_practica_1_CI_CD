@@ -11,7 +11,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "apuestas")
+@Table(name = "bets")
 public class apuestasModel implements Serializable {
 
 	private static final long serialVersionUID = -8750887545934046166L;

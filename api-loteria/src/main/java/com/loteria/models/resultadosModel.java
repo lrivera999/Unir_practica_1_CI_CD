@@ -11,7 +11,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "resultados")
+@Table(name = "results")
 public class resultadosModel implements Serializable {
 
 	private static final long serialVersionUID = 5504348257633289895L;
